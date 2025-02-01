@@ -498,8 +498,6 @@ static int rtl8211f_config_init(struct phy_device *phydev)
 				ERR_PTR(ret));
 			return ret;
 		}
-
-		return genphy_soft_reset(phydev);
 	}
 
 	ret = rtl8211f_config_init_led(phydev, 0);
