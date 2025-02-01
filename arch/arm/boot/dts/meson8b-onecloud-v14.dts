@@ -1,0 +1,17 @@
+// SPDX-License-Identifier: GPL-2.0 OR MIT
+/*
+ * Copyright 2015 Endless Mobile, Inc.
+ * Author: Carlo Caione <carlo@endlessm.com>
+ */
+
+/dts-v1/;
+
+#include "meson8b-onecloud.dts"
+
+
+&cpu_opp_table {
+	opp-1536000000 {
+		opp-hz = /bits/ 64 <1536000000>;
+		opp-microvolt = <1400000>;
+	};
+};

@@ -1,0 +1,16 @@
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Author: hzy <hzyitc@outlook.com>
+ */
+
+/dts-v1/;
+
+#include "meson8b-onecloud.dts"
+
+&usb0 {
+	status = "okay";
+	// dr_mode = "peripheral";
+	dr_mode = "otg";
+	usb-role-switch;
+	role-switch-default-mode = "device";
+};
