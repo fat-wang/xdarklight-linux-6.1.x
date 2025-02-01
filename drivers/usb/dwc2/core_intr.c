@@ -551,7 +551,7 @@ static void dwc2_handle_usb_suspend_intr(struct dwc2_hsotg *hsotg)
 				 * clock gating is used to save power.
 				 */
 				if (!hsotg->params.no_clock_gating)
-					dwc2_gadget_enter_clock_gating(hsotg);
+					// dwc2_gadget_enter_clock_gating(hsotg);
 			}
 
 			/*
