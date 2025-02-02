@@ -6,7 +6,7 @@
 
 /dts-v1/;
 
-#include "meson8b-onecloud.dts"
+#include "meson8b-onecloud-otg.dts"
 
 
 &cpu_opp_table {
